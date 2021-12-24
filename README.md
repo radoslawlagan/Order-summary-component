@@ -13,7 +13,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://radoslawlagan.github.io/Order-summary-component/)
 
 ## My process
 
@@ -27,4 +27,4 @@ Users should be able to:
 
 ### What I learned
 
-This is the first challange I've ever done. After taking few online courses on web development, I've decided it's time to put in some work and try to solve some real world problems. ;)
+This is the first challange I've ever done. After taking few online courses on web development, I've decided it's time to put in some work and try to solve some real world problems. :)
