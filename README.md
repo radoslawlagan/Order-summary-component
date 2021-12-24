@@ -13,7 +13,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://radoslawlagan.github.io/Order-summary-component/)
+- Live Site URL: [My solution live](https://radoslawlagan.github.io/Order-summary-component/)
 
 ## My process
 
