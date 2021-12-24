@@ -12,15 +12,14 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [My solution live](https://radoslawlagan.github.io/Order-summary-component/)
+- Live Site URL: [HERE](https://radoslawlagan.github.io/Order-summary-component/)
 
 ## My process
 
 ### Built with
 
 - HTML5
-- SCSS
+- SASS (SCSS)
 - BEM
 - Flexbox
 - Mobile-first workflow

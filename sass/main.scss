@@ -23,6 +23,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	background-image: url(../img/pattern-background-mobile.svg);
@@ -118,6 +119,16 @@ body {
 			&:hover {
 				color: $dark-blue;
 			}
+		}
+	}
+
+	&__attribution {
+		margin-top: 10px;
+		font-size: 11px;
+		text-align: center;
+
+		&__link {
+			color: hsl(228, 45%, 44%);
 		}
 	}
 }

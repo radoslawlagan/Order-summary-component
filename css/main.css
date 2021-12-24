@@ -23,6 +23,10 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -152,6 +156,16 @@ body {
 
 .main__card__btn-cancel:hover {
   color: #1f2f56;
+}
+
+.main__attribution {
+  margin-top: 10px;
+  font-size: 11px;
+  text-align: center;
+}
+
+.main__attribution__link {
+  color: #3e52a3;
 }
 
 @media (min-width: 1440px) {
