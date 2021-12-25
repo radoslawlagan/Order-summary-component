@@ -114,6 +114,7 @@ body {
 
 .main__card__plan__link {
   font-weight: 900;
+  text-underline-offset: 4px;
 }
 
 .main__card__plan__link:hover {
