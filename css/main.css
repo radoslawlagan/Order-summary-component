@@ -38,16 +38,15 @@ body {
   background-repeat: no-repeat;
 }
 
-.main__card {
+.card {
   width: 400px;
-  min-width: 400px;
   height: 700px;
   border-radius: 25px;
   background-color: #fff;
   overflow: hidden;
 }
 
-.main__card__info {
+.card__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -62,27 +61,26 @@ body {
   padding: 1.8em;
 }
 
-.main__card__img {
-  width: 100%;
+.card__img {
   height: 30%;
   background-image: url(../img/illustration-hero.svg);
   background-position: center;
 }
 
-.main__card__header {
+.card__header {
   margin: 0.5em;
   color: #1f2f56;
   font-weight: 900;
 }
 
-.main__card__text {
+.card__text {
   margin: auto 2.2em;
   color: #7280a7;
   text-align: center;
   line-height: 1.8;
 }
 
-.main__card__plan {
+.card__plan-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,30 +97,30 @@ body {
   background-color: #f5f7ff;
 }
 
-.main__card__plan__price {
+.card__plan {
   margin-left: -60px;
 }
 
-.main__card__plan__price-bold {
+.card__plan--bold {
   font-weight: 800;
 }
 
-.main__card__plan__price-light {
+.card__plan--light {
   font-weight: 500;
   color: #7280a7;
 }
 
-.main__card__plan__link {
+.card__plan-link {
   font-weight: 900;
   text-underline-offset: 4px;
 }
 
-.main__card__plan__link:hover {
+.card__plan-link:hover {
   text-decoration: none;
   color: #766ce4;
 }
 
-.main__card__btn-accept {
+.card__btn--accept {
   width: 100%;
   padding: 1.2em;
   border: 0px solid transparent;
@@ -132,17 +130,17 @@ body {
   font-size: 1.6rem;
   cursor: pointer;
   margin-bottom: 1em;
-  color: #fff;
-  background-color: #3829e0;
   -webkit-box-shadow: 0 30px 20px rgba(56, 41, 224, 0.2);
           box-shadow: 0 30px 20px rgba(56, 41, 224, 0.2);
+  background-color: #3829e0;
+  color: #fff;
 }
 
-.main__card__btn-accept:hover {
+.card__btn--accept:hover {
   background-color: #766ce4;
 }
 
-.main__card__btn-cancel {
+.card__btn--cancel {
   width: 100%;
   padding: 1.2em;
   border: 0px solid transparent;
@@ -151,21 +149,21 @@ body {
   font-weight: 900;
   font-size: 1.6rem;
   cursor: pointer;
-  color: #7280a7;
   background: none;
+  color: #7280a7;
 }
 
-.main__card__btn-cancel:hover {
+.card__btn--cancel:hover {
   color: #1f2f56;
 }
 
-.main__attribution {
+.attribution {
   margin-top: 10px;
-  font-size: 11px;
   text-align: center;
+  font-size: 11px;
 }
 
-.main__attribution__link {
+.attribution__link {
   color: #3e52a3;
 }
 
@@ -174,10 +172,10 @@ body {
     background-image: url(../img/pattern-background-desktop.svg);
     background-position-y: -5.5em;
   }
-  .main__card {
+  .card {
     width: 450px;
   }
-  .main__card__text {
+  .card__text {
     margin: auto 3em;
   }
 }

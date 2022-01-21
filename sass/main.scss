@@ -29,108 +29,106 @@ body {
 	background-image: url(../img/pattern-background-mobile.svg);
 	background-size: contain;
 	background-repeat: no-repeat;
+}
 
-	&__card {
-		width: 400px;
-		min-width: 400px;
-		height: 700px;
-		border-radius: 25px;
-		background-color: $white;
-		overflow: hidden;
+.card {
+	width: 400px;
+	height: 700px;
+	border-radius: 25px;
+	background-color: $white;
+	overflow: hidden;
 
-		&__info {
-			display: flex;
-			flex-direction: column;
-			justify-items: center;
-			align-items: center;
-			padding: 1.8em;
+	&__info {
+		display: flex;
+		flex-direction: column;
+		justify-items: center;
+		align-items: center;
+		padding: 1.8em;
+	}
+
+	&__img {
+		height: 30%;
+		background-image: url(../img/illustration-hero.svg);
+		background-position: center;
+	}
+
+	&__header {
+		margin: 0.5em;
+		color: $dark-blue;
+		font-weight: 900;
+	}
+
+	&__text {
+		margin: auto 2.2em;
+		color: $desaturated-blue;
+		text-align: center;
+		line-height: 1.8;
+	}
+
+	&__plan-wrapper {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 100%;
+		margin: 2em;
+		padding: 1.5em;
+		border-radius: 10px;
+		background-color: $very-pale-blue;
+	}
+
+	&__plan {
+		margin-left: -60px;
+
+		&--bold {
+			font-weight: 800;
 		}
 
-		&__img {
-			width: 100%;
-			height: 30%;
-			background-image: url(../img/illustration-hero.svg);
-			background-position: center;
+		&--light {
+			font-weight: 500;
+			color: $desaturated-blue;
 		}
 
-		&__header {
-			margin: 0.5em;
-			color: $dark-blue;
+		&-link {
 			font-weight: 900;
-		}
-
-		&__text {
-			margin: auto 2.2em;
-			color: $desaturated-blue;
-			text-align: center;
-			line-height: 1.8;
-		}
-
-		&__plan {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-			width: 100%;
-			margin: 2em;
-			padding: 1.5em;
-			border-radius: 10px;
-			background-color: $very-pale-blue;
-
-			&__price {
-				margin-left: -60px;
-
-				&-bold {
-					font-weight: 800;
-				}
-
-				&-light {
-					font-weight: 500;
-					color: $desaturated-blue;
-				}
-			}
-
-			&__link {
-				font-weight: 900;
-				text-underline-offset: 4px;
-
-				&:hover {
-					text-decoration: none;
-					color: $bright-blue-hover;
-				}
-			}
-		}
-
-		&__btn-accept {
-			@include btn;
-			margin-bottom: 1em;
-			color: $white;
-			background-color: $bright-blue;
-			box-shadow: 0 30px 20px rgba(56, 41, 224, 0.2);
+			text-underline-offset: 4px;
 
 			&:hover {
-				background-color: $bright-blue-hover;
-			}
-		}
-
-		&__btn-cancel {
-			@include btn;
-			color: $desaturated-blue;
-			background: none;
-
-			&:hover {
-				color: $dark-blue;
+				text-decoration: none;
+				color: $bright-blue-hover;
 			}
 		}
 	}
 
-	&__attribution {
-		margin-top: 10px;
-		font-size: 11px;
-		text-align: center;
+	&__btn--accept {
+		@include btn;
+		margin-bottom: 1em;
+		box-shadow: 0 30px 20px rgba(56, 41, 224, 0.2);
+		background-color: $bright-blue;
+		color: $white;
 
-		&__link {
-			color: hsl(228, 45%, 44%);
+		&:hover {
+			background-color: $bright-blue-hover;
 		}
+	}
+
+	&__btn--cancel {
+		@include btn;
+		background: none;
+		color: $desaturated-blue;
+
+		&:hover {
+			color: $dark-blue;
+		}
+	}
+}
+
+.attribution {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 11px;
+
+	&__link {
+		color: hsl(228, 45%, 44%);
 	}
 }
 
@@ -138,13 +136,13 @@ body {
 	.main {
 		background-image: url(../img/pattern-background-desktop.svg);
 		background-position-y: -5.5em;
+	}
 
-		&__card {
-			width: 450px;
+	.card {
+		width: 450px;
 
-			&__text {
-				margin: auto 3em;
-			}
+		&__text {
+			margin: auto 3em;
 		}
 	}
 }
